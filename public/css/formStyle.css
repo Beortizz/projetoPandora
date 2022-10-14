@@ -3,8 +3,8 @@
    
     color: blanchedalmond;
 }
-.marginLeft {
-    margin-left: 10px;
+.capaComDisco {
+    margin-left: 25px;
 }
 body {
     background-color:black;
@@ -12,3 +12,8 @@ body {
     background-repeat: repeat;
     background-size: 200px 200px;*/
 } 
+
+.bottomLogo {
+    position: relative;
+    bottom: 20px;
+}
