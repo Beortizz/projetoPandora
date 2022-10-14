@@ -34,7 +34,7 @@
                   <p class="text-center fw-bold mx-3 mb-0">Inscreva-se no nosso sorteio</p>
                 {{-- </div> --}}
                 <div class="divider d-flex align-items-center my-4 justify-content-center mb-10">
-                  <img src="{{asset('storage/img/capaComDisco.png')}}"
+                  <img src="https://res.cloudinary.com/djy9oaywl/image/upload/v1665733665/img/capaComDisco_dydewj.png"
                   width="500px" height="400px"alt="Sample image">
                 </div>
                 <!-- Email input -->
