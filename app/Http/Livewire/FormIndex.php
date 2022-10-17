@@ -8,7 +8,11 @@ class FormIndex extends Component
 {
     public $nome;
     public $email;
-    
+
+    protected $rules = [
+        'nome' => 'required|min:3',
+        'email' => 'required|email',
+    ];
     public function render()
     {   
         return view('livewire.form-index');
@@ -20,7 +24,7 @@ class FormIndex extends Component
     }
     public function submit()
     {
-        $var= 5;
-        dd($var);
+        $this->validate();
+            
     }
 }
