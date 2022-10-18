@@ -219,9 +219,9 @@ h1 {
             <div class="col-md-8 col-lg-8 col-xl-8 offset-xl-1">
               <form class="marginLeft"  x-show="!open">
                 <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-center">
-                  <img src="https://res.cloudinary.com/djy9oaywl/image/upload/v1665735301/img/tituloPandora-removebg-preview_zknzgp.png" width="400px" height="300px">
+                  <img src="https://res.cloudinary.com/djy9oaywl/image/upload/v1666133568/img/titutuloPandoraNovo_wj6myz.png"  class="img-fluid" width="320px" height="300px">
                 </div>
-                  <p class="text-center fw-bold mx-3 mb-0">Inscreva-se no nosso sorteio</p>
+                  {{-- <p class="text-center fw-bold mx-3 mb-0">Inscreva-se no nosso sorteio</p> --}}
                 <div class="divider d-flex align-items-center my-4 justify-content-center mb-10">
                   <img src="https://res.cloudinary.com/djy9oaywl/image/upload/v1665733665/img/capaComDisco_dydewj.png"
                   width="500px" height="325px"alt="Sample image" class="capaComDisco">
@@ -260,7 +260,7 @@ h1 {
                 </time>
               </section>
               <section class="card-cont">
-                <small>{{ rand(1000, 20000)}}</small>
+                <small>Seu código do sorteio: {{ rand(1000, 20000)}}</small>
                 <h4>{{ $nome }}</h4>
                 <div class="even-date">
                 <i class="fa fa-calendar"></i>
