@@ -272,7 +272,7 @@ h1 {
                 <div class="even-info">
                   <i class="fa fa-map-marker"></i>
                   <p>
-                    Casa de shows de Taboao da serra
+                    Casa de shows do Olimpo
                   </p>
                 </div>
                 <a href="#" @click="open = false">Fechar</a>
