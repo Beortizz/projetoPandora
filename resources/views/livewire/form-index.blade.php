@@ -11,10 +11,10 @@
     margin-left: 25px;
 }
 body {
-    background-color:black;
-    /* background-image: url('../storage/img/bgPandora.png');
-    background-repeat: repeat;
-    background-size: 200px 200px;*/
+    /* background-color:black; */
+    background-image: url('https://res.cloudinary.com/djy9oaywl/image/upload/v1666133913/img/bgPandora_b0yljd.jpg');
+    /* background-repeat: repeat; */
+    background-size: 450px 880px;
  } 
 
 .bottomLogo {
